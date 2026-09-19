@@ -70,20 +70,6 @@ Le script exécute successivement les 6 pipelines et affiche les résultats dans
 
 > Connexion internet requise au premier lancement : ce TP télécharge 7 modèles (NER, PoS, QA extractive, QA abstractive, résumé, 2× traduction, génération), soit potentiellement plusieurs Go au total. Les modèles sont mis en cache localement (`~/.cache/huggingface/`) — les lancements suivants sont beaucoup plus rapides. Prévoir du temps et de l'espace disque au premier lancement.
 
-## Démo vidéo
-
-[Voir la vidéo de démonstration](LIEN_VIDEO_ICI)
-
-## Captures d'écran
-
-| NER (Étape 2) | Traduction (Étape 6) |
-|---|---|
-| ![NER](LIEN_IMAGE_ICI) | ![Traduction](LIEN_IMAGE_ICI) |
-
-| Résumé (Étape 5) | Génération de texte (Étape 7) |
-|---|---|
-| ![Résumé](LIEN_IMAGE_ICI) | ![Génération](LIEN_IMAGE_ICI) |
-
 ## Tâches réalisées
 
 - [x] Étape 2 — NER : entités groupées, traitement en lot
